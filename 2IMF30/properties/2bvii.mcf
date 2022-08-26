@@ -1,0 +1,2 @@
+forall tube:Tube.([true*.report_state(tube, fire)]
+  mu X.([!set_max_speed(tube, _max_4)]X && <true>true))
